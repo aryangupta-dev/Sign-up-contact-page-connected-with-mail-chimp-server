@@ -50,10 +50,10 @@ app.listen(process.env.PORT ||3000, function() {
 })
 app.post("/failure",function(req,res){
   res.redirect("/");
-})
+});
 app.post("/home",function(req,res){
   res.redirect("/");
-})
+});
 
 //unique id
 //f741c7d3cf
