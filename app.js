@@ -21,7 +21,7 @@ app.post("/", function(req, res) {
       status:"subscribed",
       merge_fields:{
         FNAME:firstname,
-        LNAME:lastname
+        LNAME:lastname,
         ADDRESS:city,
         PHONE:number
       }
